@@ -3,7 +3,7 @@ let current = 0;
 let score = 0;
 
 // 🔥 FETCH QUESTIONS
-fetch("https://quiz-backend-wadg.onrender.com/questions")
+fetch("http://localhost:4000/questions")
 .then(res => res.json())
 .then(data => {
   questions = data;
